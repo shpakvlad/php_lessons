@@ -61,7 +61,7 @@ button {
   cursor: pointer;
   padding: 10px 20px;
   text-transform: uppercase;
-  background-color: brown;
+  background-color: green;
   color: white;
   border: none;
   transition-duration: 0.4s;
@@ -69,7 +69,7 @@ button {
   align-self: flex-end;
 
   &:hover {
-    background-color: #902121;
+    background-color: #006800;
 
   }
 }
@@ -80,12 +80,19 @@ button {
   left: 0;
   padding: 20px 20px;
   border-radius: 10px;
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
 
-.show-panel p {
+.show-text {
+  background-color: green;
+}
+
+.show-error {
+  background-color: red;
+}
+
+.show-text-panel{
   width: 100%;
   min-height: 100px;
   color: white;
