@@ -1,0 +1,30 @@
+//*************************************
+// CSS style module for section _globals
+// author: Shpakov Vladyslav
+// at: 18.01.2025 8:19 
+//*************************************
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 0.2px #000;
+  color: var(--green-color);
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none !important;
+  width: 0;
+  height: 0;
+}

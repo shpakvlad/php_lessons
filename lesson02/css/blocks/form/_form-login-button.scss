@@ -1,0 +1,19 @@
+//*************************************
+// CSS style module for section _form-login-button
+// author: Shpakov Vladyslav
+// at: 18.01.2025 10:02 
+//*************************************
+
+.form {
+  &__login-button {
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--green-color);
+    color: var(--light-color);
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+  }
+}

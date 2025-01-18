@@ -1,0 +1,13 @@
+//*************************************
+// CSS style module for section _form-button-panel
+// author: Shpakov Vladyslav
+// at: 18.01.2025 10:00 
+//*************************************
+
+.form {
+  &__button-panel {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

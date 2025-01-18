@@ -1,0 +1,31 @@
+//*************************************
+// CSS style module for section _error-button
+// author: Shpakov Vladyslav
+// at: 18.01.2025 10:44 
+//*************************************
+
+.error-panel {
+  &-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    &-line {
+      display: block;
+      width: 14px;
+      height: 2px;
+      background-color: var(--error-panel-bg-color);
+    }
+
+    .line-1 {
+      transform: translate(5px, 1px) rotateZ(-45deg);
+    }
+    .line-2 {
+      transform: translate(5px, -1px) rotateZ(45deg);
+    }
+  }
+}

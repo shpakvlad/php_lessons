@@ -1,0 +1,16 @@
+//*************************************
+// CSS style module for section _form-title
+// author: Shpakov Vladyslav
+// at: 18.01.2025 9:58 
+//*************************************
+
+.form {
+  &__title {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,16 @@
+//*************************************
+// CSS style module for section _label
+// author: Shpakov Vladyslav
+// at: 18.01.2025 9:56 
+//*************************************
+
+.form {
+  &__label {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-of-type) {
+      margin-bottom: 20px;
+    }
+  }
+}

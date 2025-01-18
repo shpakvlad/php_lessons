@@ -1,0 +1,22 @@
+//*************************************
+// CSS style module for section _login
+// author: Shpakov Vladyslav
+// at: 18.01.2025 8:18 
+//*************************************
+
+.login__section {
+  width: 100%;
+  min-height: 100vh;
+  align-content: center;
+
+  .form {
+    max-width: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: var(--form-bg-color);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+  }
+}

@@ -1,0 +1,16 @@
+//*************************************
+// CSS style module for section _error-panel
+// author: Shpakov Vladyslav
+// at: 18.01.2025 10:07 
+//*************************************
+
+.error-panel {
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--error-panel-bg-color);
+  color: var(--dark-color);
+}

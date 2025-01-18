@@ -1,0 +1,17 @@
+//*************************************
+// CSS style module for section _input
+// author: Shpakov Vladyslav
+// at: 18.01.2025 9:56 
+//*************************************
+
+.form {
+  &__input {
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--dark-color);
+    color: var(--green-color);
+  }
+
+}

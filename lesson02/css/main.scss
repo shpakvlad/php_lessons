@@ -1,0 +1,23 @@
+//*************************************
+// CSS style module for section main
+// author: Shpakov Vladyslav
+// at: 18.01.2025 8:17 
+//*************************************
+
+@use "fonts";
+@use "colors";
+@use "globals";
+@use "blocks/form/login";
+
+@use "blocks/form/form-title";
+@use "blocks/form/form-label";
+@use "blocks/form/form-input";
+@use "blocks/form/form-warn-text";
+@use "blocks/form/form-button-panel";
+@use "blocks/form/form-register-link";
+@use "blocks/form/form-login-button";
+
+@use "blocks/error-panel/error-panel";
+@use "blocks/error-panel/error-button";
+
+
