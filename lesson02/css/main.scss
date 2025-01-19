@@ -7,7 +7,7 @@
 @use "fonts";
 @use "colors";
 @use "globals";
-@use "blocks/form/login";
+@use "blocks/form/form-login";
 
 @use "blocks/form/form-title";
 @use "blocks/form/form-label";
@@ -19,5 +19,5 @@
 
 @use "blocks/error-panel/error-panel";
 @use "blocks/error-panel/error-button";
-
+@use "blocks/error-panel/error-message";
 

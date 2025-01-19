@@ -23,27 +23,30 @@
         <input class="form__input" type="password" name="userpassword" id="userpassword">
       </label>
 
+      <label class="form__label" for="repeatuserpassword">Repeat password : *
+        <input class="form__input" type="password" name="repeatuserpassword" id="repeatuserpassword">
+      </label>
+
       <p class="form__warning-text">
         (*) asterisk - required fields
       </p>
 
       <div class="form__button-panel">
-        <a class="form__register-link" href="#">Register</a>
         <button class="form__login-button" type="submit">Login</button>
       </div>
     </form>
-
-    <div class="error-panel hidden">
-      <p class="error-panel-message">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, odio.
-      </p>
-
-      <button class="error-panel-button" type="button">
-        <span class="error-panel-button-line line-1" ></span>
-        <span class="error-panel-button-line line-2" ></span>
-      </button>
-    </div>
   </div>
+</div>
+
+<div class="error-panel hidden"> <!--    to hide, add hidden class-->
+  <p class="error-panel-message">
+
+  </p>
+
+  <button class="error-panel-button" type="button">
+    <span class="error-panel-button-line line-1"></span>
+    <span class="error-panel-button-line line-2"></span>
+  </button>
 </div>
 
 </body>
